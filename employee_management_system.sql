@@ -404,3 +404,5 @@ FROM departments d
 LEFT JOIN projects p
 ON d.department_id = p.department_id
 GROUP BY d.department_id,d.department_name;
+
+-- ============================================================
